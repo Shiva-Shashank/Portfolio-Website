@@ -1,0 +1,154 @@
+body {margin: 0; padding: 0; background-image: url("https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#welcome-section {height: 65vh;
+padding-top: 4rem;
+  
+  display: flex;                             justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                         font-family: 'Exo', sans-serif; font-size: 3rem;
+   text-align: center;
+     color: black;
+                  }
+
+#project-title {    font-family: 'Exo', sans-serif; font-size: 3rem;
+            color: blue; margin: 0; padding-bottom: 2rem; }
+
+#navbar {position: fixed;
+     width: 100%;
+     top: 0;
+     left: 0;
+     text-align: right;
+     height: 50px;
+     margin: 0; padding-top: 0.5rem;
+     z-index: 1;
+  font-family: 'Exo', sans-serif; 
+background-image: url("https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");}
+
+img {width: 300px;
+     max-width:100%;
+     border-radius: 2rem;
+     border: 0.1rem solid 	hsl(180, 65%, 70%);
+     
+     }
+.nav-link {font-size: 2rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   color: hsl(0, 0%, 5%);
+   text-decoration: none;
+  
+   }
+
+.nav-link:hover {background: white;}
+
+#profile {width: 150px;
+     max-width:100%;
+     border-radius: 1rem;
+}
+
+h1 {text-align: center;
+color: blue;}
+h2 {font-size:2rem;}
+
+
+#grid {display: grid;
+           position: relative;
+           grid-template-columns: 50% 50%;
+           grid-template-rows: 50% 50%;
+           text-align: center;
+           margin-left: 15%;
+           margin-right: 15%;
+           grid-gap: 2rem;            padding-bottom: 1rem;
+}
+
+.project-tile {text-decoration: none;
+               border-radius: 1rem;
+               color: 	black;
+               font-weight: bold;
+               font-size: 1.3rem;
+               
+                font-family: 'Exo', sans-serif;
+width: 100%;}
+
+
+.project-tile:hover > img {border:0.1rem solid white;}
+
+.project-tile:hover {color: white;}
+
+#contact-details {text-align: center;
+               
+                  
+                  
+                  }
+
+#profile-head {font-family: 'Exo', sans-serif; font-size: 3rem;
+   text-align: center;
+     color: black; 
+                  }
+
+#linkedin { width: 60px; filter:invert(1); border: 0;}
+
+#linkedin:hover {filter:invert(0);}
+
+#fcc { width: 115px; filter:invert(0); border: 0;}
+
+#fcc:hover {filter:invert(0);}
+
+.contact {color: black; text-decoration: none;}
+
+.contact:hover {color: black;}
+
+.contact:hover .logo {filter:invert(0) !important;}
+
+.logo {margin-right: 1rem; margin-left: 1rem;}
+
+@media (max-width: 850px) { #grid {grid-template-columns: 100%;
+  grid-template-rows: 25% 25% 25% 25%;} }
+
+@media (max-width: 1050px) {#welcome-section {font-size: 2.5rem !important;} #project-title {font-size: 2.5rem;} #profile-head {font-size: 2.5rem;} .project-tile {font-size: 1.1rem;} .nav-link {font-size: 1.5rem; padding-left: 0.5rem; padding-right: 0.5rem;} #git { width: 60px;}
+  #fcc { width: 85px;} #subheading {font-size: 2.5rem;}}
+
+
+#contact-details {display: flex; flex-direction: row; justify-content: center; font-family: 'Exo', sans-serif; padding-bottom: 2rem;}
+
+#subheading {font-size: 2rem; margin: 0; font-style: italic;}
+#heading {margin: 0;}
+
+#projects {padding-bottom: 4rem;}
+
+footer {font-size: 0.9rem;}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  margin-left: auto;
+    margin-right: auto;
+   
+  width: 50%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html { text align:center; width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+p {text align:center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 250px;
+    margin-inline-end: 50px;
+}
